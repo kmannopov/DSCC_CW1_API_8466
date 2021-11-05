@@ -11,6 +11,6 @@ namespace DSCC_CW1_MicroservicesAPI_8466.Models
         public string Name { get; set; }
         public string Author { get; set; }
         public int Isbn { get; set; }
-        public Genre Genre { get; set; }
+        public Genre BookGenre { get; set; }
     }
 }

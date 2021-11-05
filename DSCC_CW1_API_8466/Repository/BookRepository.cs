@@ -26,13 +26,13 @@ namespace DSCC_CW1_API_8466.Repository
         public Book GetBookById(int bookId)
         {
             var book = _dbContext.Books.Find(bookId);
-            _dbContext.Entry(book).Reference(s => s.Genre).Load();
+            _dbContext.Entry(book).Reference(s => s.BookGenre).Load();
             return book;
         }
 
         public IEnumerable<Book> GetBooks()
         {
-            return _dbContext.Books.Include(s => s.Genre).ToList();
+            return _dbContext.Books.Include(s => s.BookGenre).ToList();
         }
 
         public void InsertBook(Book book)
