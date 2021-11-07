@@ -20,7 +20,7 @@ namespace DSCC_CW1_API_8466
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("https://*:5001;http://*:5000").UseStartup<Startup>();
+                    webBuilder.UseUrls("http://*:5000").UseStartup<Startup>();
                 });
     }
 }
