@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/8466
+hooks:
+  ApplicationStart:
+    - location: start_application.sh
+      timeout: 30000
+      runas: root
+  ApplicationStop:
+    - location: stop_application.sh
+      timeout: 30000
+      runas: root
