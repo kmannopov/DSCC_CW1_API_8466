@@ -5,10 +5,10 @@ files:
     destination: /var/www/8466
 hooks:
   ApplicationStart:
-    - location: scripts/start_server.sh
+    - location: start_application.sh
       timeout: 30000
       runas: root
   ApplicationStop:
-    - location: scripts/stop_server.sh
+    - location: stop_application.sh
       timeout: 30000
       runas: root
