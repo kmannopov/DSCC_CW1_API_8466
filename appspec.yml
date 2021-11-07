@@ -1,14 +1,14 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /var/www/8466
+  - source: /DSCC_CW1_API_8466/bin/Release/net5.0/publish/
+    destination: /var/www/html
 hooks:
   ApplicationStart:
     - location: start_application.sh
-      timeout: 30000
+      timeout: 300
       runas: root
   ApplicationStop:
-    - location: stop_application.sh
-      timeout: 30000
-      runas: root
+#    - location: stop_application.sh
+#      timeout: 300
+#      runas: root
