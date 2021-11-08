@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khurs\\source\\repos\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj": {}
+    "C:\\Users\\kmann\\source\\repos\\kmannopov\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khurs\\source\\repos\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj": {
+    "C:\\Users\\kmann\\source\\repos\\kmannopov\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khurs\\source\\repos\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj",
+        "projectUniqueName": "C:\\Users\\kmann\\source\\repos\\kmannopov\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj",
         "projectName": "DSCC_CW1_API_8466",
-        "projectPath": "C:\\Users\\khurs\\source\\repos\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj",
-        "packagesPath": "C:\\Users\\khurs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khurs\\source\\repos\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\obj\\",
+        "projectPath": "C:\\Users\\kmann\\source\\repos\\kmannopov\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466.csproj",
+        "packagesPath": "C:\\Users\\kmann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kmann\\source\\repos\\kmannopov\\DSCC_CW1_API_8466\\DSCC_CW1_API_8466\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khurs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kmann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
