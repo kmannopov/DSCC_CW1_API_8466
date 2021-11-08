@@ -37,6 +37,7 @@ namespace DSCC_CW1_API_8466
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DSCC_CW1_API_8466", Version = "v1" });
             });
             services.AddTransient<IBookRepository, BookRepository>();
+            services.AddTransient<IGenreRepository, GenreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

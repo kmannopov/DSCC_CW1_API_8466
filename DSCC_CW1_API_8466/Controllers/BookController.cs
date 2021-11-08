@@ -58,7 +58,7 @@ namespace DSCC_CW1_API_8466.Controllers
             {
                 using (var scope = new TransactionScope())
                 {
-                    _bookRepository.UpdateBook(book);
+                    _bookRepository.UpdateBook(book);   
                     scope.Complete();
                     return new OkResult();
                 }
